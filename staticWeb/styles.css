@@ -1,0 +1,941 @@
+/* Reset de estilos por defecto del navegador */
+* {
+    margin: 0;
+    /* Elimina el margen por defecto de todos los elementos */
+    padding: 0;
+    /* Elimina el relleno por defecto de todos los elementos */
+    box-sizing: border-box;
+    /* Cambia el modelo de caja para incluir padding y border en el ancho y alto */
+}
+
+body {
+    background-color: #333;
+    /* Establece el color de fondo del cuerpo de la página en un gris oscuro */
+}
+
+
+
+/*ESTILO DE TERMINOS Y CONDICIONES, CONTACTOS*/
+
+.terminos-container {
+    max-width: 800px;
+    /* Ancho máximo del contenedor */
+    margin: auto;
+    /* Centra el contenedor horizontalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #444;
+    /* Fondo del contenedor */
+    padding: 20px;
+    /* Espaciado interior del contenedor */
+    border-radius: 8px;
+    /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(150, 55, 194, 0.918);
+    /* Sombra suave */
+    color: #ddd;
+}
+
+.terminos-container h1 {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px;
+    /* Espacio inferior del título */
+}
+
+.terminos-container h2 {
+    margin-top: 30px;
+    /* Espacio superior de los subtítulos */
+}
+
+.terminos-container ul {
+    list-style-type: disc;
+    /* Estilo de viñetas */
+    margin-left: 20px;
+    /* Sangría de la lista */
+}
+
+.terminos-container p {
+    margin-bottom: 15px;
+    /* Espacio inferior de los párrafos */
+}
+
+.terminos-container a {
+    color: #ddd;
+    /* Color de los enlaces */
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+}
+
+.terminos-container a:hover {
+    text-decoration: underline;
+    /* Subrayado al pasar el ratón por encima */
+}
+
+
+/*EVENTOS Y PROMOCIONES*/
+
+.eventos .container {
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan a la siguiente línea si es necesario */
+    gap: 20px;
+    /* Espacio entre los elementos dentro del contenedor */
+    max-width: 800px;
+    /* Ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
+    margin-top: 20px;
+    /* Margen superior del contenedor */
+    margin-bottom: 20px;
+    /* Margen inferior del contenedor */
+    background-color: #444;
+    /* Color de fondo del contenedor */
+    padding: 20px;
+    /* Espaciado interior del contenedor */
+    border-radius: 8px;
+    /* Bordes redondeados del contenedor */
+    box-shadow: 0 0 10px rgba(150, 55, 194, 0.918);
+    /* Sombra suave alrededor del contenedor */
+    color: #ddd;
+    /* Color del texto dentro del contenedor */
+}
+
+/* Alinear el título al centro y ajustar su posición */
+.eventos h2 {
+    text-align: center;
+    /* Alinear el texto del título al centro */
+    margin-top: 20px;
+    /* Margen superior del título */
+    margin-bottom: 20px;
+    /* Margen inferior del título */
+}
+
+
+/* Estilo del contenedor principal */
+.container {
+    width: 98%;
+    /* Ancho del contenedor principal */
+    margin: 0 auto;
+    /* Centrado horizontal */
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos del Navbar */
+nav {
+    background-color: #333;
+    /* Color de fondo del navbar */
+    color: #fff;
+    /* Color del texto */
+    padding: 15px 0;
+    /* Relleno interno superior e inferior */
+
+
+}
+
+
+/* Estilo para el logo de RateStars */
+.logo h1 {
+    color: #ddd;
+    /* Color del texto del logo */
+    font-size: 35px;
+    /* Tamaño de fuente del texto del logo */
+    display: inline-block;
+    /* El logo ocupa solo el espacio necesario */
+    opacity: 0.1;
+    /* Transparencia del logo en estado normal */
+}
+
+.logo h1:hover {
+    transform: translateY(-5px);
+    /* Desplazamiento hacia arriba al pasar el cursor sobre el logo */
+    color: #cc73c5;
+    /* Cambio de color del logo al pasar el cursor */
+    opacity: 0.5;
+    /* Aumento de la opacidad al pasar el cursor */
+}
+
+
+
+/*NAVEGADOR */
+nav .nav-links {
+    display: inline;
+    /* Mostrar los enlaces de navegación en línea */
+    list-style: none;
+    /* Quitar viñetas de la lista de enlaces */
+    float: right;
+    /* Flotar los enlaces a la derecha */
+    margin-right: 20px;
+    /* Margen derecho de los enlaces */
+    font-size: 30px;
+
+}
+
+nav .nav-links li {
+    display: inline;
+    /* Mostrar cada elemento de lista como en línea */
+    margin-left: 20px;
+    /* Margen izquierdo entre los elementos de lista */
+}
+
+
+/* Estilo para los enlaces dentro de los elementos <li> del menú de navegación */
+nav li a {
+    color: #ddd;
+    /* Color del texto de los enlaces */
+    font-size: 15px;
+    /* Tamaño de la fuente de los enlaces */
+}
+
+
+nav a {
+    color: #ddd;
+    /* Color del texto de los enlaces */
+    text-decoration: none;
+    /* Quitar subrayado de los enlaces */
+    font-weight: bold;
+    /* Negrita */
+
+}
+
+
+nav a:hover {
+    color: #cc73c5;
+    /* Cambia el color del texto al pasar el cursor */
+
+}
+
+
+/*ESTILOS DEL BUSCAR*/
+
+nav .search-bar {
+
+    float: right;
+    /* Flotar la barra de búsqueda a la derecha */
+
+}
+
+nav .search-bar input[type="text"] {
+    padding: 5px;
+    /* Relleno interno del campo de texto */
+    border: none;
+    /* Sin borde */
+    border-radius: 3px;
+    /* Borde redondeado */
+}
+
+
+
+
+/* Estilos del botón de búsqueda */
+nav .search-bar button {
+    padding: 5px 10px;
+    /* Relleno interno del botón */
+    background-color: #444;
+    /* Color de fondo del botón */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Borde redondeado */
+    cursor: pointer;
+    /* Cambia el cursor a un puntero al pasar el mouse */
+}
+
+/* Estilos del icono dentro del botón de búsqueda */
+nav .search-bar button i {
+    color: #e120e7;
+    /* Color del icono dentro del botón */
+}
+
+
+
+/* Estilos para el campo de búsqueda */
+#busqueda {
+    background-color: #444;
+    /* Color de fondo del campo de búsqueda */
+    color: #f0f0f0;
+    /* Color del texto dentro del campo de búsqueda */
+}
+
+/* Estilos para el banner de inicio */
+.banner {
+    background-color: #333;
+    /* Color de fondo del banner */
+    padding: 40px 0;
+    /* Relleno interno del banner (arriba y abajo) */
+}
+
+/* Estilos para el carousel */
+.carousel {
+    position: relative;
+    /* Posición relativa para el carousel */
+    max-width: 800px;
+    /* Ancho máximo del carousel */
+    margin: 0 auto;
+    /* Centra el carousel horizontalmente */
+    overflow: hidden;
+    /* Oculta el contenido que excede del carousel */
+}
+
+.carousel-inner {
+    display: flex;
+    /* Usa un contenedor flexible para los items del carousel */
+    transition: transform 0.5s ease;
+    /* Efecto de transición al cambiar los items */
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    /* Hace que cada item ocupe el 100% del ancho */
+    width: 100%;
+    /* Ancho completo para cada item */
+}
+
+.carousel-item img {
+    width: 100%;
+    /* Ajusta la imagen del carousel al ancho completo */
+    height: 400px;
+    /* Altura fija para la imagen */
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir el contenedor */
+    position: relative;
+    /* Posición relativa para la imagen */
+}
+
+.carousel-caption {
+    position: absolute;
+    /* Posición absoluta para la caption */
+    bottom: 20px;
+    /* Distancia desde la parte inferior */
+    left: 20px;
+    /* Distancia desde la izquierda */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo semi-transparente para la caption */
+    color: #fff;
+    /* Color del texto de la caption */
+    padding: 10px;
+    /* Relleno interno de la caption */
+    text-align: center;
+    /* Alineación del texto */
+}
+
+.carousel-control {
+    position: absolute;
+    /* Posición absoluta para los controles del carousel */
+    top: 50%;
+    /* Alinea los controles verticalmente al centro */
+    transform: translateY(-50%);
+    /* Ajusta la posición verticalmente */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente para los controles */
+    color: #fff;
+    /* Color del texto de los controles */
+    border: none;
+    /* Sin borde */
+    padding: 10px 15px;
+    /* Relleno interno de los controles */
+    font-size: 18px;
+    /* Tamaño de la fuente de los controles */
+    cursor: pointer;
+    /* Cambia el cursor a un puntero al pasar el mouse */
+}
+
+.carousel-control.prev {
+    left: 10px;
+    /* Posición izquierda para el control "prev" */
+}
+
+.carousel-control.next {
+    right: 10px;
+    /* Posición derecha para el control "next" */
+}
+
+
+/* Estilos para la sección "Explorar Establecimientos" */
+.explorar {
+    padding: 80px 0;
+    /* Relleno interno superior e inferior de 80px y sin relleno a los lados */
+
+
+}
+
+/* Estilos para el contenedor de filtros */
+.filtros {
+    background-color: #fff;
+    /* Color de fondo del contenedor de filtros */
+    padding: 20px;
+    /* Relleno interno de 20px en todos los lados */
+    border-radius: 5px;
+    /* Borde redondeado de 5px */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+    margin-bottom: 30px;
+    /* Margen inferior de 30px */
+}
+
+/* Estilos para etiquetas dentro del contenedor de filtros */
+.filtros label {
+    margin-right: 10px;
+    /* Margen derecho de 10px */
+    font-weight: bold;
+    /* Texto en negrita */
+}
+
+/* Estilos para select e input dentro del contenedor de filtros */
+.filtros select,
+.filtros input {
+    padding: 8px;
+    /* Relleno interno de 8px */
+    border: 1px solid #ddd;
+    /* Borde de 1px sólido con color #ddd */
+    border-radius: 7px;
+    /* Borde redondeado de 7px */
+}
+
+/* Estilos para el botón dentro del contenedor de filtros */
+.filtros button {
+    background-color: #cc73c5;
+    /* Color de fondo del botón */
+    color: rgb(17, 17, 17);
+    /* Color del texto */
+    padding: 10px 20px;
+    /* Relleno interno de 10px arriba y abajo, 20px a los lados */
+    border: none;
+    /* Sin borde */
+    border-radius: 4px;
+    /* Borde redondeado de 4px */
+    cursor: pointer;
+    /* Cursor de puntero al pasar el mouse */
+    transition: background-color 0.3s;
+    /* Transición suave del color de fondo */
+}
+
+/* Estilos al pasar el mouse sobre el botón enviar*/
+.filtros button:hover {
+    background-color: #cca5c9;
+    /* Cambia el color de fondo al pasar el mouse */
+
+}
+
+
+/* ESTABLECIMIENTOS  */
+
+/* Estilos para los elementos de establecimiento */
+.establecimiento {
+    width: calc(50% - 10px);
+    /* Calcula el ancho para dos columnas con espacio entre ellas */
+    background-color: #534f4f;
+    /* Color de fondo */
+    border: 1px solid rgba(214, 209, 209, 0.918);
+    /* Borde */
+    padding: 20px;
+    /* Espaciado interior */
+    margin: 10px;
+    /* Margen exterior */
+    width: 300px;
+    /* Ancho máximo */
+    text-align: left;
+    /* Alineación del texto */
+    box-shadow: 0 4px 10px rgba(150, 55, 194, 0.918);
+    /* Sombra suave */
+    color: #ddd;
+    /* Color del texto */
+    margin-bottom: 20px;
+    /* Margen inferior */
+    border-radius: 10px;
+    /* Borde redondeado */
+}
+
+
+.establecimiento h3 {
+    font-size: 24px;
+    /* Tamaño de la fuente para los títulos */
+    margin-bottom: 10px;
+    /* Margen inferior para los títulos */
+}
+
+.establecimiento p {
+    margin-bottom: 10px;
+    /* Margen inferior para los párrafos */
+}
+
+.establecimiento a {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+}
+
+
+/* Efecto de translación hacia arriba al pasar el cursor sobre los establecimientos */
+.establecimiento:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para las estrellas de calificación */
+.rating .star {
+    font-size: 13px;
+    /* Tamaño de la fuente de las estrellas */
+    color: rgb(206, 202, 184);
+    /* Color por defecto de las estrellas */
+    transition: color 0.3s;
+    /* Transición para el cambio de color */
+    cursor: pointer;
+    /* Cursor apuntador al pasar sobre las estrellas */
+}
+
+.rating .star:hover,
+.rating .star.checked {
+    color: gold;
+    /* Color dorado al pasar el cursor o al estar seleccionado */
+}
+
+/* Estilos para la sección de explorar */
+.explorar {
+    background-color: #444;
+    /* Color de fondo */
+    padding: 50px 0;
+    /* Espaciado interior */
+    text-align: center;
+    /* Alineación del texto al centro */
+}
+
+.explorar h2 {
+    color: #e0d7d7;
+    /* Color del título */
+    font-size: 36px;
+    /* Tamaño de la fuente del título */
+    margin-bottom: 20px;
+    /* Margen inferior del título */
+}
+
+.filtros {
+    margin-bottom: 30px;
+    /* Margen inferior */
+    color: #ddd;
+    /* Color del texto */
+    background-color: #444;
+    /* Color de fondo */
+}
+
+.filtros select {
+    background-color: #444;
+    /* Color de fondo para los selectores */
+    color: #ddd;
+    /* Color del texto de los selectores */
+}
+
+#ubicacion {
+    background-color: #444;
+    /* Color de fondo */
+    color: #ddd;
+    /* Color del texto */
+}
+
+.lista-establecimientos {
+    display: flex;
+    /* Mostrar como flexbox */
+    justify-content: space-around;
+    /* Distribución uniforme del espacio entre los elementos */
+    flex-wrap: wrap;
+    /* Envolver los elementos en múltiples líneas si es necesario */
+}
+
+a {
+    text-decoration: none;
+    /* Eliminar el subrayado de los enlaces */
+    color: inherit;
+    /* Heredar el color del texto */
+}
+
+
+/* ESTILOS DE CONTACTO */
+.contacto {
+    background-color: #333;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    padding: 40px 0;
+    /* Espaciado interior */
+}
+
+.contacto .container {
+    max-width: 600px;
+    /* Ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centrar el contenedor horizontalmente */
+    padding: 0 20px;
+    /* Espaciado interior del contenedor */
+}
+
+.contacto h2 {
+    text-align: center;
+    /* Alineación del texto al centro */
+    margin-bottom: 30px;
+    /* Margen inferior */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Margen inferior */
+}
+
+.form-group label {
+    display: block;
+    /* Mostrar como bloque */
+    margin-bottom: 5px;
+    /* Margen inferior */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    /* Ancho completo */
+    padding: 10px;
+    /* Espaciado interior */
+    border: 1px solid #555;
+    /* Borde */
+    background-color: #444;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    border-radius: 4px;
+    /* Borde redondeado */
+}
+
+.form-group textarea {
+    height: 100px;
+    /* Altura del textarea */
+    resize: vertical;
+    /* Permitir redimensionamiento vertical */
+}
+
+
+
+
+/* Estilos para el botón de contacto */
+.contacto button {
+    background-color:#cc73c5; 
+    /* Color de fondo del botón */
+    color: white;
+    /* Color del texto del botón */
+    padding: 12px 20px;
+    /* Espaciado interior del botón */
+    border: none;
+    /* Borde del botón */
+    border-radius: 4px;
+    /* Borde redondeado del botón */
+    cursor: pointer;
+    /* Cursor apuntador al pasar sobre el botón */
+    font-size: 16px;
+    /* Tamaño de la fuente del botón */
+    display: block;
+    /* Mostrar como bloque */
+    width: 100%;
+    /* Ancho completo del botón */
+}
+
+.contacto button:hover {
+    background-color: #cca5c9;
+    /* Cambio de color de fondo al pasar el cursor sobre el botón */
+}
+
+
+/*color de cuando no llenas un casillero del fomrmulario*/
+.form-group .error {
+    border: 2px solid rgb(211, 87, 87);
+    /* Ejemplo específico para textarea */
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #423f3f;
+    /* Color de fondo del footer */
+    color: #fff;
+    /* Color del texto dentro del footer */
+    padding: 20px 0;
+    /* Relleno interno superior e inferior de 20px y sin relleno a los lados */
+
+
+}
+
+/*derechos de autor*/
+.footer-top {
+    display: flex;
+    /* Usa el modelo de caja flexible para los elementos dentro de .footer-top */
+
+
+    margin-bottom: 10px;
+    /* Margen inferior de 10px para separar .footer-top de .sponsor o cualquier contenido siguiente */
+    margin-left: 0%;
+}
+
+
+
+
+
+/* Estilos para las redes sociales */
+.redes-sociales {
+    font-size: 18px;
+    /* Tamaño de letra para redes sociales */
+    margin-left: auto;
+    /* Margen izquierdo automático para alinear a la derecha */
+    
+}
+.redes-sociales :hover{
+    transform: translateY(-5px);
+    /* Translación hacia arriba al pasar el cursor */
+    color: #daafd6;
+    /* Cambio de color al pasar el cursor sobre icons */
+}
+
+.redes-sociales a {
+    color: #fff;
+    /* Color del texto de los enlaces de redes sociales */
+    margin: 0 10px;
+    /* Margen entre los enlaces */
+    color: #cc73c5;
+}
+
+
+
+/* Estilos para la sección de patrocinadores */
+.sponsor {
+    margin-top: 20px;
+    /* Margen superior */
+    text-align: center;
+    /* Alineación al centro del texto */
+}
+
+.sponsor p {
+    font-weight: bold;
+    /* Peso de la fuente en negrita */
+    margin-bottom: 5px;
+    /* Margen inferior */
+}
+
+.sponsor-icons {
+    display: flex;
+    justify-content: center;
+    /* Centrar los íconos de los patrocinadores */
+}
+
+.sponsor-icons span {
+    display: inline-block;
+    /* Mostrar en línea */
+    margin: 0 10px;
+    /* Margen entre los íconos de los patrocinadores */
+    font-size: 25px;
+    /* Tamaño de fuente de los íconos */
+    margin-right: 125px;
+    /* Espacio a la derecha de cada ícono */
+    color: #cca5c9;
+}
+
+/* Efecto de hover sobre los íconos de los patrocinadores */
+.sponsor-icons span:hover {
+    transform: translateY(-5px);
+    /* Translación hacia arriba al pasar el cursor */
+    color: #cc73c5;
+    /* Cambio de color al pasar el cursor sobre icons */
+}
+
+/* Estilos para el texto de derechos de autor */
+.derechos-autor a {
+    font-size: 20px; /* Tamaño de fuente para el texto de derechos de autor */
+    color: #cc73c5;
+}
+.derechos-autor :hover {
+    transform: rotateZ('angle');
+    color: #dda6d9;
+}
+
+
+/* Estilos para el diseño responsivo */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        /* Ancho del contenedor al 95% en dispositivos pequeños */
+
+    }
+
+    .establecimiento {
+        width: 100%;
+        /* Ancho completo del establecimiento en dispositivos pequeños */
+        /* Mostrar un establecimiento por fila en dispositivos pequeños */
+    }
+    
+
+
+    .filtros {
+        flex-direction: column;
+        /* Dirección de columnas para filtros en dispositivos pequeños */
+    }
+
+    .filtros label,
+    .filtros select,
+    .filtros input,
+    .filtros button {
+        width: 100%;
+        /* Ancho completo para etiquetas, selectores, inputs y botones en dispositivos pequeños */
+        margin-bottom: 10px;
+        /* Margen inferior */
+    }
+
+    .contacto form {
+        width: 100%;
+        /* Ancho completo del formulario en dispositivos pequeños */
+    }
+}
+
+
+/*estilo para las tablas de los eventos*/
+table {
+    margin: 0 auto;
+    /* Centra la tabla horizontalmente */
+}
+
+/*INICIO DE SESSION */
+
+.form-login {
+    background-color: #474444; /* Color de fondo del formulario */
+    padding: 30px; /* Espacio interno del formulario */
+    border-radius: 15px; /* Bordes redondeados del formulario */
+    width: 700px; /* Ancho del formulario */
+    text-align: center; /* Alineación centrada del texto */
+    margin-top: 40px; /* Espacio desde arriba */
+    align-items: center; /* Centra verticalmente los elementos en un contenedor flex */
+    border: #474444; /* Color del borde */
+}
+
+.form-login h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+/*BOTON INCIO SESION*/
+.form-login button[type="inicioSesion"] {
+    background-color: #cc73c5;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+}
+
+.form-login button[type="inicioSesion"]:hover {
+    background-color: #dda6d9; /* Cambia el color de fondo al pasar el mouse */
+    border-color: #dda6d9;; /* Cambia el color del borde al pasar el mouse */
+    color: #292525; /* Cambia el color del texto al pasar el mouse */
+}
+
+.form-login button[type="inicioSesion"]:focus {
+    outline: none; /* Elimina el contorno predeterminado al enfocar */
+}
+
+
+
+
+/*REGISTRARSE dentro de registro*/
+.formulario {
+    background-color: #474444; /* Color de fondo del formulario */
+    padding: 30px; /* Espacio interno del formulario */
+    border-radius: 15px; /* Bordes redondeados del formulario */
+    width: 700px; /* Ancho del formulario */
+    text-align: center; /* Alineación centrada del texto */
+    margin-top: 40px; /* Espacio desde arriba */
+    align-items: center; /* Centra verticalmente los elementos en un contenedor flex */
+    border: #474444; /* Color del borde */
+}
+
+   
+
+
+.formulario h2 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 24px; /* Tamaño de fuente del título */
+    color: #333; /* Color del texto del título */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Espacio debajo de cada grupo de entrada */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/*palabras nombre, correo contra*/
+.input-group label {
+    display: block; /* Hace que el elemento se comporte como un bloque */
+    font-size: 14px; /* Tamaño de fuente de las etiquetas */
+    color: #ccc; /* Color del texto de las etiquetas */
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 100%; /* Establece el ancho de los inputs al 100% del contenedor padre */
+    padding: 10px; /* Agrega un espacio interior de 10px alrededor del contenido de los inputs */
+    font-size: 1rem; /* Establece el tamaño de la fuente dentro de los inputs a 1 rem (1 rem = tamaño de la fuente raíz) */
+    border: 1px solid #ccc; /* Define un borde de 1px de ancho, sólido, con color #ccc (gris claro) */
+    border-radius: 8px; /* Redondea las esquinas del borde con un radio de 8px */
+}
+
+
+/*BOTON REGISTRARSE*/
+button[type="submit"] {
+    background-color: #cc73c5; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: 2px solid #cc73c5; /* Borde del botón */
+    border-radius: 4px; /* Bordes redondeados del botón */
+    padding: 12px 24px; /* Espacio interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    font-weight: bold; /* Negrita para el texto del botón */
+}
+
+button[type="submit"]:hover {
+    background-color: #dda6d9; /* Cambia el color de fondo al pasar el mouse */
+    color: #292525; /* Cambia el color del texto al pasar el mouse */
+}
+
+.registrate {
+    margin-top: 10px; /* Espacio encima del enlace de registro */
+    font-size: 14px; /* Tamaño de fuente del enlace de registro */
+}
+
+.registrate a {
+    color: #ccc; /* Color del enlace de registro */
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.registrate a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse */
+}
+
+
+/*NO ALERT*/
+
+
+
